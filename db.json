@@ -51,14 +51,20 @@
     {
       "name": "kendi",
       "category": "Produce",
-      "isInCart": false,
+      "isInCart": true,
       "id": 9
     },
     {
       "name": "kendi",
       "category": "Produce",
-      "isInCart": false,
+      "isInCart": true,
       "id": 10
+    },
+    {
+      "name": "kendi",
+      "category": "Produce",
+      "isInCart": false,
+      "id": 11
     }
   ]
 }

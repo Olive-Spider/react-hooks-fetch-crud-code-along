@@ -1,6 +1,6 @@
 import React from "react";
 
-function Item({ item, onUpdateItem }) {
+function Item({ item, onUpdateItem, onDeleteItem }) {
 
   function handleAddToCartClick() {
       // add fetch request
@@ -22,7 +22,7 @@ function Item({ item, onUpdateItem }) {
       method: "DELETE",
     })
       .then((r) => r.json())
-      .then(() => console.log("deleted!"));
+      .then(() => onDeleteItem(item));
   }
 
   return (
